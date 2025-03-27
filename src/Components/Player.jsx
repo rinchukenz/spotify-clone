@@ -3,7 +3,7 @@ import { assets, songsData } from '../assets/assets'
 
 function Player() {
   return (
-    <div className='Player h-[5%] bg-black flex justify-between items-center text-white px-4'>
+    <div className='Player h-[5%] bg-black flex justify-between items-center text-white px-4 mt-5'>
       <div className="Left hidden lg:flex items-center gap-4">
         <img className='w-12' src={songsData[0].image} alt="" />
         <div className="song-name">

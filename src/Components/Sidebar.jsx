@@ -14,7 +14,7 @@ function Sidebar() {
           <p className='font-bold'>Search</p>
         </div>
       </div>
-      <div className="bg-[#121212] h-[80%]">
+      <div className="bg-[#121212] h-[100%]">
         <div className="flex p-3 justify-between items-center">
           <div className="flex gap-3 pl-8 items-center">
             <img className='w-7' src={assets.stack_icon} alt="" />
