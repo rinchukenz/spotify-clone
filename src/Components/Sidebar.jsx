@@ -3,7 +3,7 @@ import {assets} from '../assets/assets'
 
 function Sidebar() {
   return (
-    <div className='Sidebar w-[25%] h-full p-2 flex-col gap-3 text-white lg:flex'>
+    <div className='Sidebar hidden w-[25%] h-full p-2 flex-col gap-3 text-white lg:flex'>
       <div className="bg-[#121212] flex flex-col justify-around gap-2 p-3">
         <div className='flex gap-3 pl-8 cursor-pointer items-center'>
           <img className='w-5' src={assets.home_icon} alt="" />
