@@ -18,11 +18,11 @@ function DisplayAlbum() {
             <p>Playlist</p>
             <h2 className='text-5xl font-bold mb-4 md:text-7xl'>{albumdata.name}</h2>
             <h4>{albumdata.desc}</h4>
-            <p className='mt-1'>
-                <img className='inline-block w-5' src={assets.spotify_logo} alt="" />
-                <b>Spotify</b>
+            <p className='mt-1 py-1'>
+                <img className='inline-block w-5 mr-1.5' src={assets.spotify_logo} alt="" />
+                <b>Spotify </b>
                 | 1,45,321 likes
-                | <b>35 songs,</b>
+                | <b>35 songs, </b>
                 about 2 hr 45 min
             </p>
         </div>
