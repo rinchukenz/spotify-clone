@@ -41,6 +41,10 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from './Onmyway.mp3'
+import song5 from './Closer.mp3'
+import song6 from './Cheap Thrills.mp3'
+import song7 from './Let Me Down.mp3'
 
 export const assets = {
     bell_icon,
@@ -141,34 +145,34 @@ export const songsData = [
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "On my way",
+        image: "https://pagalnew.com/coverimages/On-My-Way-Alan-Walker-500-500.jpg",
+        file:song4,
+        desc:"Alan Walker",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Closer",
+        image: "https://pagalnew.com/coverimages/Closer-The-Chainsmokers-500-500.jpg",
+        file:song5,
+        desc:"ChainSmokers",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
+        name: "Cheap Thrills",
         image: img14    ,
-        file:song3,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Let me Down",
+        image: "https://pagalnew.com/coverimages/Let-Me-Down-Slowly-Alec-Benjamin-500-500.jpg",
+        file:song7,
+        desc:"",
         duration:"2:18"
     },
     {
