@@ -38,13 +38,14 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import song1 from  './seeyouagain.mp3'
+import song2 from  './payphone.mp3'
+import song3 from  './sorry.mp3'
 import song4 from './Onmyway.mp3'
 import song5 from './Closer.mp3'
 import song6 from './Cheap Thrills.mp3'
 import song7 from './Let Me Down.mp3'
+import song8 from './onedirection.mp3'
 
 export const assets = {
     bell_icon,
@@ -121,26 +122,26 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "See You Again",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Wiz Khalifa",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Payphone",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Maroon 5",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Sorry",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Justin Bieber",
         duration:"2:32"
     },
     {
@@ -164,7 +165,7 @@ export const songsData = [
         name: "Cheap Thrills",
         image: img14    ,
         file:song6,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Sean Paul",
         duration:"2:45"
     },
     {
@@ -172,15 +173,15 @@ export const songsData = [
         name: "Let me Down",
         image: "https://pagalnew.com/coverimages/Let-Me-Down-Slowly-Alec-Benjamin-500-500.jpg",
         file:song7,
-        desc:"",
+        desc:"Alec Benjamin",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Night Changes",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song8,
+        desc:"One Direction",
         duration:"2:35"
     }
 ]
